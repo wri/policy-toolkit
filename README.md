@@ -8,9 +8,9 @@ The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up t
 The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~5,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
 
 Analyzing this data requires the following steps:
-    * Refinement of Snorkel data programming
-    * Tokenization and cleaning of data (e.g. converting numbers to <number> tags)
-    * Removing punctuation
+   * Refinement of Snorkel data programming
+   * Tokenization and cleaning of data (e.g. converting numbers to <number> tags)
+   * Removing punctuation
 
 The ideal modeling pipeline would be:
    * Snorkel labels -> Fine tune BERT classifier -> Test on Gold Standard dataset
