@@ -17,9 +17,14 @@ retrieveR::download_embeddings()
 ```
 
 ```{r cars}
-corpus <- retrieveR::prep_documents("../data/raw/kenya", ocr = TRUE)
+corpus <- retrieveR::prep_documents("../data/raw/malawi", ocr = TRUE)
 ```
 
 ```{r}
 write.csv(corpus, "../data/processed/kenya_raw.csv")
 ```
+
+```{r}
+create_report(query = 'finance', interactive = F, thresh = 0.4, data = corpus)
+```
+
