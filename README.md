@@ -33,6 +33,16 @@ Major to-dos include:
 Priorities for columbia team:
    * Additional feature engineering (SpaCy dependency parsing, NER, topic modeling, USE, etc.)
    * Named entity disambiguation from positive class paragraphs: (finance_type, finance_amount, funder, fundee)
+   
+References:
+   * [BERT](https://arxiv.org/pdf/1810.04805.pdf)
+   * [RoBERTA](https://arxiv.org/pdf/1907.11692.pdf)
+   * [Snorkel](https://dawn.cs.stanford.edu/pubs/snorkel-nips2016.pdf)
+   * [Snorkel-metal](https://arxiv.org/pdf/1810.02840.pdf)
+   * retrieveR ([github](https://github.com/wri/retrieveR), [paper](https://arxiv.org/pdf/1908.02425.pdf))
+   * [NLP for policy analysis](https://web.stanford.edu/~jgrimmer/tad2.pdf)
+   * [Topic modeling for policy](https://www.tandfonline.com/doi/full/10.1080/14693062.2019.1624252)
+   * [Policy analysis and restoration](https://pdfs.semanticscholar.org/4bc7/af30a8ec6f325cd15da54cc5973f8be49240.pdf)
 
 Project Organization
 ------------
