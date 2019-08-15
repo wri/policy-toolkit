@@ -3,6 +3,8 @@ Policy-toolkit
 
 This repository contains code and data for the Restoration Research & Monitoring team's initiative to automate the identification of financial incentives and disincentives across policy contexts.
 
+## Notebooks
+
 The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up the environment, preprocessing data, and performing manual and automatic data labeling.
 
    * 1-environment-setup: Set up jupyter environment (alternative to Docker)
@@ -12,11 +14,15 @@ The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up t
    * 5-roberta-classification: Embed paragraphs as features with roBERTa model
    * 6-end-model: Train a noise-aware end model with snorkel metal label classifier output
 
+## Data
+
 The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~5,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
 
    * gold_standard.csv: ID, country, policy, page, text, class
    * noisy_labels.csv: ID, country, policy, page, text, class
    * unlabeled.csv: ID, country, policy, page, text
+
+## Roadmap
 
 Analyzing this data requires the following steps:
    * Refinement of Snorkel data programming
@@ -33,8 +39,9 @@ Major to-dos include:
 Priorities for columbia team:
    * Additional feature engineering (SpaCy dependency parsing, NER, topic modeling, USE, etc.)
    * Named entity disambiguation from positive class paragraphs: (finance_type, finance_amount, funder, fundee)
-   
-References:
+
+## References
+
    * [BERT](https://arxiv.org/pdf/1810.04805.pdf)
    * [RoBERTA](https://arxiv.org/pdf/1907.11692.pdf)
    * [Snorkel](https://dawn.cs.stanford.edu/pubs/snorkel-nips2016.pdf)
