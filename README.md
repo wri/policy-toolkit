@@ -5,6 +5,13 @@ This repository contains code and data for the Restoration Research & Monitoring
 
 The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up the environment, preprocessing data, and performing manual and automatic data labeling.
 
+   * 1-environment-setup: Set up jupyter environment (alternative to Docker)
+   * 2-extract-transfer-load: Extract text and disaggregate to paragraphs
+   * 3-data-labelling: Manual gold standard data creation
+   * 4-automatic-data-labeling: Automatic data labeling with data programming in Snorkel
+   * 5-roberta-classification: Embed paragraphs as features with roBERTa model
+   * 6-end-model: Train a noise-aware end model with snorkel metal label classifier output
+
 The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~5,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
 
    * gold_standard.csv: ID, country, policy, page, text, class
@@ -16,14 +23,23 @@ Analyzing this data requires the following steps:
    * Tokenization and cleaning of data (e.g. converting numbers to <number> tags)
    * Removing punctuation
 
-The ideal modeling pipeline would be:
-   * Snorkel labels -> Fine tune BERT classifier -> Test on Gold Standard dataset
+Major to-dos include:
+   * Refine snorkel data programming
+   * Create gold standard classifier (vanilla RNN)
+   * Create gold standard + roBERTa classifier
+   * Create snorkel-metal classifier (simple embeddings)
+   * Create roBERTA -> snorkel-metal classifier (LSTM of feature embeddings -> multitask head)
+
+Priorities for columbia team:
+   * Additional feature engineering (SpaCy dependency parsing, NER, topic modeling, USE, etc.)
+   * Named entity disambiguation from positive class paragraphs: (finance_type, finance_amount, funder, fundee)
 
 Project Organization
 ------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── Dockerfile         <- Dockerfile to create environment
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
