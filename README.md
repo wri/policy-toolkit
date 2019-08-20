@@ -37,7 +37,17 @@ Major to-dos include:
    * Create roBERTA -> snorkel-metal classifier (LSTM of feature embeddings -> multitask head)
 
 Priorities for columbia team:
-   * Additional feature engineering (SpaCy dependency parsing, NER, topic modeling, USE, etc.)
+   * Pilot implementation of BabbleLabble [link](https://github.com/HazyResearch/babble)
+   * Additional feature engineering including:
+      * SpACy dependency parsing
+      * Named entity recognition
+      * Topic modeling
+      * Universal sentence encoder
+      * Hidden markov model
+      * DBPedia linking
+   * Data augmentation with synonym replacement [link](https://www.snorkel.org/use-cases/02-spam-data-augmentation-tutorial)
+   * Model augmentation with slicing functions [link](https://www.snorkel.org/use-cases/03-spam-data-slicing-tutorial)
+   * Massive multi task learning with snorkel 0.9
    * Named entity disambiguation from positive class paragraphs: (finance_type, finance_amount, funder, fundee)
 
 ## References
