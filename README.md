@@ -24,17 +24,11 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
 
 ## Roadmap
 
-Analyzing this data requires the following steps:
-   * Refinement of Snorkel data programming
-   * Tokenization and cleaning of data (e.g. converting numbers to <number> tags)
-   * Removing punctuation
-
-Major to-dos include:
+Priorities for WRI team:
    * Refine snorkel data programming
-   * Create gold standard classifier (vanilla RNN)
-   * Create gold standard + roBERTa classifier
-   * Create snorkel-metal classifier (simple embeddings)
-   * Create roBERTA -> snorkel-metal classifier (LSTM of feature embeddings -> multitask head)
+   * Create noisy_labels.csv
+   * Create unlabeled.csv
+   * Make the workflow from notebook to notebook more clear
 
 Priorities for columbia team:
    * Pilot implementation of BabbleLabble [link](https://github.com/HazyResearch/babble)
