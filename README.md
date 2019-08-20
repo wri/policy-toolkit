@@ -16,7 +16,7 @@ The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up t
 
 ## Data
 
-The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~5,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
+The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~16,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
 
    * gold_standard.csv: ID, country, policy, page, text, class
    * noisy_labels.csv: ID, country, policy, page, text, class
@@ -33,7 +33,7 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
 **Priorities for Columbia team**
    * Pilot implementation of BabbleLabble [link](https://github.com/HazyResearch/babble)
    * Additional feature engineering including:
-      * SpACy dependency parsing
+      * SpaCy dependency parsing
       * Named entity recognition
       * Topic modeling
       * Universal sentence encoder
@@ -41,6 +41,7 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
       * DBPedia linking
    * Data augmentation with synonym replacement [link](https://www.snorkel.org/use-cases/02-spam-data-augmentation-tutorial)
    * Model augmentation with slicing functions [link](https://www.snorkel.org/use-cases/03-spam-data-slicing-tutorial)
+   * Fine tune roBERTa on noisy labels
    * Massive multi task learning with snorkel 0.9
    * Named entity disambiguation from positive class paragraphs: (finance_type, finance_amount, funder, fundee)
 
@@ -48,6 +49,7 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
 
    * [BERT](https://arxiv.org/pdf/1810.04805.pdf)
    * [RoBERTA](https://arxiv.org/pdf/1907.11692.pdf)
+   * [Additional feature engineering improves BERT performance](http://web.stanford.edu/class/cs224n/reports/default/15791958.pdf)
    * [Snorkel](https://dawn.cs.stanford.edu/pubs/snorkel-nips2016.pdf)
    * [Snorkel-metal](https://arxiv.org/pdf/1810.02840.pdf)
    * retrieveR ([github](https://github.com/wri/retrieveR), [paper](https://arxiv.org/pdf/1908.02425.pdf))
