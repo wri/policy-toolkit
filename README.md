@@ -24,13 +24,13 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
 
 ## Roadmap
 
-Priorities for WRI team:
+**Priorities for WRI team**
    * Refine snorkel data programming
    * Create noisy_labels.csv
    * Create unlabeled.csv
    * Make the workflow from notebook to notebook more clear
 
-Priorities for columbia team:
+**Priorities for Columbia team**
    * Pilot implementation of BabbleLabble [link](https://github.com/HazyResearch/babble)
    * Additional feature engineering including:
       * SpACy dependency parsing
