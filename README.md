@@ -16,18 +16,24 @@ The `notebooks` folder contains Jupyter and RMarkdown notebooks for setting up t
 
 ## Data
 
-The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in three `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, `noisy_labels.csv` contains ~16,000 paragraphs labeled with Snorkel, `unlabeled.csv` contains the rest of the text data, split into paragraphs and generally cleaned.
+The `data` folder contains data at each stage of the pipeline, from raw to interim to processed. Raw data are simply PDFs of policy documents. The ETL pipeline results in two `.csv` files. The `gold_standard.csv` contains ~1,100 paragraphs labeled manually, and the `noisy_labels.csv` contains ~16,000 paragraphs (soon to be >30,000) labeled with Snorkel.
 
    * gold_standard.csv: ID, country, policy, page, text, class
-   * noisy_labels.csv: ID, country, policy, page, text, class
-   * unlabeled.csv: ID, country, policy, page, text
+   * noisy_labels.csv: ID, country, policy, page, text, (class distributions)
+   
+## Modeling ethos
+
+This project uses data programming to algorithmically label training data based on a small, hand-made gold standard. Soft labels are assigned as probability distributions of label likelihood based on the weak algorithmic labels. These soft labels are used in a soft implementation of cross entropy.
+
+Models are trained with algorithmically labeled samples and evaluated on the gold standard labels. The current pipeline is noisy labeling -> roBERTa encoding -> LSTM.
+
+Future iterations will fine tune roBERTa, add additional feature engineering, and update the noisy labeling process.
 
 ## Roadmap
 
 **Priorities for WRI team**
+   * Second validation for gold standard
    * Refine snorkel data programming
-   * Create noisy_labels.csv
-   * Create unlabeled.csv
    * Make the workflow from notebook to notebook more clear
 
 **Priorities for Columbia team**
