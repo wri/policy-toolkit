@@ -20,6 +20,7 @@ The `data` folder contains data at each stage of the pipeline, from raw to inter
 
    * gold_standard.csv: ID, country, policy, page, text, class
    * noisy_labels.csv: ID, country, policy, page, text, (class distributions)
+   * snorkel_noisy_proba.csv: class distributions ([neutral, negative, positive]) to join to `noisy_labels.csv`. Shape is (nrow noisy_labels, 3).
    
 ## Modeling ethos
 
