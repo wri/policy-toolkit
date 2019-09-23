@@ -24,7 +24,10 @@ var/
 *.egg
 
 # data
-*.npy
+#*.npy
+data/processed/test_embeddings/
+data/processed/train_embeddings/
+data/processed/encodings.npy
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
