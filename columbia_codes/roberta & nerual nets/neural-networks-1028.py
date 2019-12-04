@@ -19,7 +19,6 @@ import pandas as pd
 from torch import nn
 from sklearn.metrics import f1_score
 
-
 # ## Shared classes
 
 # #### Data Loader
@@ -31,14 +30,16 @@ import torch
 from torch.utils import data
 from torch.utils.data import DataLoader, TensorDataset
 
+
 class Dataset(data.Dataset):
     'Characterizes a dataset for PyTorch'
+
     def __init__(self, list_IDs, labels, mode):
         'Initialization'
         self.labels = labels
         self.list_IDs = list_IDs
         self.mode = mode
-        
+
     def __len__(self):
         'Denotes the total number of samples'
         return len(self.list_IDs)
@@ -67,14 +68,14 @@ params = {'batch_size': 50,
           'num_workers': 2}
 
 Y = df['class'] - 1
-    
+
 # Datasets
 partition = {'train': [x for x in range(0, 800)],
              'validation': [x for x in range(800, 900)],
              'test': [x for x in range(900, 1000)]}
 
-noisy_labels = {k:w for w,k in zip(noisy_probas, range(1000))}
-gs_labels = {k:w for w,k in zip(Y, range(800, 1000))}
+noisy_labels = {k: w for w, k in zip(noisy_probas, range(1000))}
+gs_labels = {k: w for w, k in zip(Y, range(800, 1000))}
 
 # Generators
 training_set = Dataset(partition['train'], gs_probas[0:800], 'test')
@@ -85,7 +86,6 @@ validation_generator = data.DataLoader(validation_set, **params)
 
 test_set = Dataset(partition['test'], gs_labels, 'test')
 test_generator = data.DataLoader(test_set, **params)
-
 
 # #### Soft label loss
 
@@ -156,13 +156,12 @@ def train(model,
           n_epochs,
           train_generator,
           val_generator):
-    
     softcriterion = SoftCrossEntropyLoss()
     hardcriterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.002)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.002)
     counter = 0
-    val_losses = []
-    
+    valid_losses = []
+
     for epoch in range(1, n_epochs + 1):
         train_loss = torch.zeros(1)
         valid_loss = torch.zeros(1)
@@ -174,8 +173,8 @@ def train(model,
             loss.backward()
             optimizer.step()
             optimizer.zero_grad()
-            train_loss += loss.data #changed the train loss into a total loss
-            
+            train_loss += loss.data  # changed the train loss into a total loss
+
         # Get validation loss
         with torch.no_grad():
             val_h = model.init_hidden(batch_size)
@@ -184,7 +183,7 @@ def train(model,
                 inputs = inputs.type(torch.FloatTensor)
                 output = model(inputs)
                 loss = hardcriterion(output.reshape((batch_size, 3)), labels.long())
-                valid_loss += loss.data #changed the validation loss into a total loss
+                valid_loss += loss.data  # changed the validation loss into a total loss
 
         print("Epoch: {}/{}...".format(epoch, n_epochs),
               "Step: {}...".format(counter),
@@ -195,9 +194,10 @@ def train(model,
         if len(valid_losses) < 1 or valid_loss.item <= valid_losses[-1]:  # if the dev loss continues to decline
             valid_losses.append(valid_loss)  # add the current loss to the list
         else:
-            break # otherwise, if the dev loss is not improving, stop the iteration
+            break  # otherwise, if the dev loss is not improving, stop the iteration
 
     return model
+
 
 # add a test method to calculate test loss and f1 score
 def test(model, loss_fn, test_generator):
@@ -220,7 +220,7 @@ def test(model, loss_fn, test_generator):
     print(loss.item())
     print("F-score: ")
     print(f1_score(gold, predicted, average='macro'))
-    
+
 
 # ## Gold standard baseline
 # 
@@ -230,6 +230,7 @@ def test(model, loss_fn, test_generator):
 
 
 import torch.autograd as autograd
+
 
 class Model(nn.Module):
     def __init__(self, input_size, output_size, hidden_dim, n_layers):
@@ -242,31 +243,30 @@ class Model(nn.Module):
 
         # Defining the layers
         # RNN Layer
-        self.lstm = nn.LSTM(input_size, hidden_dim, n_layers, batch_first=True)   
+        self.lstm = nn.LSTM(input_size, hidden_dim, n_layers, batch_first=True)
         # Fully connected layer
         self.fc = nn.Linear(hidden_dim, self.output_size)
-    
+
     def forward(self, batch):
         self.hidden = self.init_hidden(batch.size(-2))
         outputs, (ht, ct) = self.lstm(batch, self.hidden)
-        
+
         # Reshaping the outputs such that it can be fit into the fully connected layer
         out = self.fc(ht[-1])
         return out
-    
+
     def init_hidden(self, batch_size):
-        return(autograd.Variable(torch.randn(1, batch_size, self.hidden_dim)),
-                                 autograd.Variable(torch.randn(1, batch_size, self.hidden_dim)))
+        return (autograd.Variable(torch.randn(1, batch_size, self.hidden_dim)),
+                autograd.Variable(torch.randn(1, batch_size, self.hidden_dim)))
 
 
 # In[7]:
 
 
-model = Model(input_size = 1024, output_size = 3, hidden_dim = 200, n_layers = 1)
+model = Model(input_size=1024, output_size=3, hidden_dim=200, n_layers=1)
 model.to("cpu")
 
 n_epochs = 100
-
 
 # In[8]:
 
@@ -276,10 +276,10 @@ print_every = 100
 batch_size = 50
 loss_fn = nn.CrossEntropyLoss()
 
-model = train(model = model,
-             n_epochs = 250,
-             train_generator = training_generator,
-             val_generator = validation_generator)
+model = train(model=model,
+              n_epochs=250,
+              train_generator=training_generator,
+              val_generator=validation_generator)
 model = torch.load('/home/yg2619/capstone/baseline_revised.pth')
 # save the model for later use
 torch.save(model, 'baseline_revised.pth')
