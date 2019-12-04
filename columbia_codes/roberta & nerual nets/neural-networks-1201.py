@@ -72,14 +72,18 @@ class Dataset(data.Dataset):
 # In[3]:
 
 
-gs = pd.read_csv("~/capstone/data/gold_standard_updated.csv")
-gs_probas = np.load('/home/yg2619/capstone/data/snorkel_proba_updated.npy')
-noisy_probas = np.load('/home/yg2619/capstone/data/snorkel_noisy_proba_updated.npy')
-gs_features = pd.read_csv("~/capstone/data/gs_allFeatures.csv")
-noisy_features = pd.read_csv("~/capstone/data/noisy_allFeatures.csv")
-gs_embeddings = np.load('/home/yg2619/capstone/data/test_embedding.npy')
-noisy_embeddings = np.load('/home/yg2619/capstone/data/train_embedding.npy')
+# load updated gold standard datasets and snorkel labels dataset
+gs = pd.read_csv("~/columbia_codes/data/gold_standard_updated.csv")
+gs_probas = np.load('~/columbia_codes/data/snorkel_proba_updated.npy')
+noisy_probas = np.load('~/columbia_codes/data/snorkel_noisy_proba_updated.npy')
+# load embeddings dataset
+gs_embeddings = np.load('~/columbia_codes/data/test_embedding.npy')
+noisy_embeddings = np.load('~/columbia_codes/data/train_embedding.npy')
+# load additional features
+gs_features = pd.read_csv("~/columbia_codes/data/gs_allFeatures.csv")
+noisy_features = pd.read_csv("~/columbia_codes/data/noisy_allFeatures.csv")
 
+# reduced the original batch size from 50 to 20
 params = {'batch_size': 20,
           'shuffle': True,
           'num_workers': 2}
