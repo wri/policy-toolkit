@@ -42,6 +42,11 @@ def generate_pos(text):
         for col in pos_col:
             pos = col.strip('countsof')
             pos_tags.loc[i, col] = counts[pos]
+    # scale the pos tag counts
+    scaler = StandardScaler()
+    pos_tags = pd.DataFrame(scaler.fit_transform(pos_tags))
+    # rename the columns
+    pos_tags.columns = pos_col
     return pos_tags
 
 
