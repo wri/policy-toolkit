@@ -1,0 +1,1007 @@
+index,type,text,relevance,confidence
+0,Organization,ministerial coordination committee,0.958279,0.535767
+0,Organization,asds,0.893874,0.691308
+0,Organization,icc,0.786463,0.997123
+1,Organization,government,0.978348,0.685561
+6,Person,kenyas,0.963296,0.399072
+6,Organization,government,0.491032,0.948379
+7,Organization,rural electrification authority,0.978348,0.630186
+8,Organization,ministry of youth and sports,0.958279,0.742694
+8,Organization,youth enterprise development fund,0.48552,0.489316
+8,Organization,constituency development fund,0.348411,0.309545
+10,Organization,district agricultural development,0.978348,0.611135
+11,Organization,ministry of finance,0.978348,0.739479
+12,Organization,asds,0.978348,0.267709
+13,Location,kenya,0.963296,0.920606
+13,Organization,treasury,0.648165,0.653048
+15,Organization,narc government,0.953262,0.502916
+15,Organization,kenya meat commission,0.720173,0.864155
+15,Company,kenya seed company,0.650974,0.675016
+15,Company,agricultural finance corporation,0.615884,0.582497
+15,Company,kcc,0.427164,0.972661
+15,Location,kenya,0.327838,0.797434
+16,Organization,ascu,0.963296,0.934544
+16,Organization,asds vision,0.043324,0.350235
+17,Organization,ascu,0.963296,0.787746
+17,Organization,asds,0.350776,0.468954
+19,Organization,sac cos,0.978348,0.384151
+22,Location,kenya,0.978348,0.999606
+23,Organization,government,0.978348,0.801833
+24,Quantity,two decades,0.958279,0.8
+24,Location,kenya,0.817146,0.999809
+24,Quantity,5 years,0.123724,0.8
+27,Company,kenyas,0.978348,0.821108
+28,Organization,world trade organization,0.958279,0.350015
+28,Location,kenya,0.810494,0.99981
+28,Location,kenyas,0.674049,0.781515
+30,Organization,sac cos,0.978348,0.572684
+36,Location,kenya,0.978348,0.999656
+39,Organization,asds,0.963296,0.699544
+39,Organization,ifaa,0.805128,0.43289
+46,Organization,inter governmental authority on development igad,0.954265,0.541968
+46,Location,kenya,0.808396,1.0
+46,Organization,east african community,0.738807,0.693755
+46,Organization,european union,0.638371,0.999975
+46,Location,africa,0.334891,0.780841
+47,Organization,export processing zone authority,0.978348,0.324
+48,Organization,farmer federations,0.963296,0.434831
+48,Organization,kenya private sector alliance,0.606204,0.415829
+51,Organization,ifaa,0.978348,0.945951
+54,Organization,government,0.978348,0.935731
+55,Organization,government,0.978348,0.771207
+57,Organization,kenya forestry research institute,0.978348,0.743104
+59,Organization,board of trustees,0.978348,0.734692
+61,Organization,cabinet,0.978348,0.968678
+61,Organization,national treasury,0.861537,0.750101
+64,Location,kenya,0.9999,1.0
+64,Organization,fdic,0.220141,0.762233
+65,Organization,un,0.978348,1.0
+65,Organization,kenya national cleaner production centre,0.357862,0.317351
+65,Location,kenya,0.199188,0.999817
+66,Organization,fdic,0.9999,0.994937
+68,Company,china group,0.963296,0.343067
+68,Company,mctf,0.224092,0.994581
+69,Location,copenhagen,0.958279,0.989102
+69,Location,kenya,0.620448,0.998888
+69,Quantity,one day,0.571873,0.8
+70,Location,kenya,0.963296,0.999812
+70,TwitterHandle,@,0.091206,0.8
+71,Company,memr,0.95577,0.950102
+71,Organization,national climate change coordinating office,0.854823,0.365542
+71,Organization,national climate change activities coordinating committee,0.647866,0.86134
+71,Organization,doe,0.50654,0.987076
+73,Person,redd,0.978348,0.338968
+74,Organization,ministry of environment and mineral resources,0.978348,0.774536
+75,Organization,un,0.978348,0.999873
+76,Organization,kenya meteorological department,0.958279,0.786048
+76,Location,kenya,0.837465,0.999902
+76,Organization,national designated authority,0.489342,0.636166
+77,Location,kenya,0.958279,0.999861
+77,Organization,united nations,0.727542,0.906892
+77,Organization,fdic,0.654079,0.766634
+78,Organization,imf,0.960286,0.998705
+78,Organization,world bank,0.567638,0.742521
+78,Quantity,2 0 years,0.453139,0.8
+78,Organization,african development bank,0.401325,0.396686
+78,Quantity,five years,0.092968,0.8
+79,Location,copenhagen,0.978348,0.989031
+81,Facility,national adaptation facility,0.978348,0.33418
+82,Location,kenya,0.978348,0.998658
+83,Person,kenyas,0.954265,0.843366
+83,Organization,world bank,0.392799,0.602926
+83,Location,kenya,0.252734,0.996732
+83,Organization,world health organization,0.057094,0.699783
+83,Organization,undp,0.004952,0.916563
+84,Organization,kyoto protocol,0.963296,0.070486
+84,Quantity,two percent,0.320123,0.8
+85,Location,copenhagen,0.963296,0.993103
+85,Location,us,0.56564,0.862584
+86,Organization,kenyan government,0.978348,0.779649
+88,Location,kenya,0.9999,0.999999
+89,Location,kenya,0.978348,0.991083
+90,Organization,nccrs,0.978348,0.779405
+91,Quantity,five years,0.978348,0.8
+92,Location,kenya,0.993399,1.0
+92,Location,africa,0.171019,0.999565
+93,Location,kenya,0.963296,0.998868
+93,Person,redd,0.703025,0.745197
+96,Location,kenya,0.978348,0.99725
+97,Location,kenya,0.970822,1.0
+97,Organization,kenya meteorological department,0.454688,0.779187
+97,Organization,un,0.435257,0.998973
+97,Organization,gad climate prediction and applications centre,0.421217,0.281333
+98,Organization,un,0.963296,0.932763
+98,Location,kenya,0.430188,0.995788
+99,Company,forest carbon partnership,0.963296,0.400899
+99,Organization,un,0.722592,0.993867
+100,Organization,establishment of gender research and documentation centre,0.952007,0.110695
+100,Organization,sgbv,0.81833,0.939401
+100,Organization,national gender and equality commission,0.699284,0.727882
+100,Quantity,3 0 percent,0.600447,0.8
+100,Location,kenya,0.414516,0.999936
+100,Organization,women enterprise fund,0.367538,0.791576
+100,Company,gm,0.328836,0.630879
+100,Organization,national development fund,0.200344,0.84294
+101,Organization,government,0.968313,0.996667
+101,Location,kenya,0.238069,0.980452
+101,Location,africa,0.024015,0.999418
+103,Location,kenya,0.958279,0.999869
+103,Facility,lamu port,0.867456,0.159913
+103,Location,sudan,0.4325,0.988335
+103,Location,ethiopia,0.428146,0.975431
+103,Organization,opp,0.207743,0.840148
+103,Organization,world bank,0.191085,0.308347
+105,Location,nairobi,0.978348,0.356599
+106,Organization,youth enterprise fund,0.978348,0.524162
+108,Location,african region,0.978348,0.309322
+109,Location,kenya,0.953262,0.99853
+109,Location,mombasa,0.745524,0.99931
+109,Location,malaba,0.641737,0.840759
+109,Facility,homo kenyatta international airport,0.581197,0.502094
+109,Organization,government,0.48698,0.855657
+109,Location,ethiopia,0.21813,0.593028
+111,Organization,financial services center,0.978348,0.528726
+112,Organization,government,0.978348,0.876093
+113,Organization,government,0.9999,0.953313
+115,Company,kenyas global,0.958279,0.443944
+115,Organization,national treasury,0.830959,0.734358
+115,Organization,government,0.240088,0.683006
+117,Location,kenya,0.963296,0.959338
+117,Company,ark,0.921822,0.567731
+120,Organization,jubilee coalition,0.95577,0.730058
+120,Quantity,five year,0.762184,0.8
+120,Location,kenya,0.455097,0.999324
+120,Organization,government,0.063452,0.935529
+121,Organization,jubilee government,0.95577,0.779801
+121,Location,kenyas,0.899388,0.903366
+121,Organization,government,0.282452,0.968109
+121,Location,kenya,0.142756,0.999393
+122,Organization,government,0.978348,0.761483
+125,Company,kenyas,0.963296,0.936923
+125,Company,ck,0.250578,0.549278
+127,Company,ark,0.978348,0.446553
+128,Organization,kenya foreign service institute,0.954265,0.574144
+128,Organization,foreign service academy,0.763454,0.506613
+128,Organization,semi autonomous government,0.705283,0.507428
+128,Organization,foreign service institute,0.684103,0.728482
+128,Organization,foreign service,0.15473,0.259149
+130,Organization,national sports lottery fund,0.963296,0.587966
+130,Organization,ksh,0.513468,0.494229
+131,Quantity,five year,0.958279,0.8
+131,Organization,government,0.501952,0.788557
+131,Location,kenya,0.254745,0.999511
+132,Organization,nssf,0.963296,0.999947
+132,Organization,national social security fund,0.855211,0.546131
+132,Organization,nsf,0.794729,0.998111
+132,Organization,government,0.774867,0.965816
+133,Organization,national policy on youth polytechnics,0.958279,0.449978
+133,Organization,national productivity council,0.664541,0.881436
+133,Organization,national social security fund,0.294383,0.697318
+134,Organization,ministry of devolution and planning,0.963296,0.682798
+134,Organization,national treasury,0.609618,0.872355
+135,Organization,fisheries and food authority,0.95577,0.672961
+135,Organization,affa,0.933392,0.829193
+135,Organization,kenya agricultural research,0.899129,0.676786
+135,Company,karo,0.568474,0.581396
+138,Organization,government,0.978348,0.940981
+139,Organization,ministry of devolution and planning,0.963296,0.729015
+139,Organization,national treasury,0.535528,0.865921
+140,Company,mses,0.978348,0.931247
+144,Company,kenya industrial training institute,0.963296,0.310947
+144,Organization,establishment of kenya accreditation services,0.455485,0.49695
+148,Organization,government,0.978348,0.747153
+149,Location,kenya,0.978348,0.999957
+149,Organization,government,0.203954,0.872664
+150,Organization,un,0.978348,0.999778
+151,Location,kenya,0.978348,0.999964
+151,Location,east africa,0.282833,0.97942
+152,Company,kenyas,0.978348,0.92952
+154,Company,development finance and financial co,0.963296,0.146185
+154,Company,cos sub sectors,0.198136,0.104828
+155,Company,ck,0.978348,0.55463
+156,Organization,nairobi international financial centre,0.95577,0.442302
+156,Organization,niff,0.893973,0.973131
+156,Location,africa,0.114001,0.999387
+156,Organization,nifc,0.004949,0.864225
+159,Organization,nairobi international financial centre,0.95577,0.302813
+159,Organization,nifc,0.830858,0.91107
+159,Organization,niff,0.776306,0.99552
+159,Location,africa,0.010319,0.999579
+163,Organization,change.nairobi international financial centre,0.953262,0.121939
+163,Organization,niff,0.916749,0.971599
+163,Organization,east african monetary union,0.730557,0.301986
+163,Person,kenyas,0.697879,0.477281
+163,Location,kenya,0.551374,0.97931
+163,Company,ea,0.398795,0.871522
+164,Location,kenya,0.958279,0.993655
+164,Organization,government,0.472983,0.762415
+164,Quantity,one year,0.083748,0.8
+165,Location,kenya,0.9999,0.999997
+168,Location,kenya,0.963296,0.999667
+168,Organization,government,0.123882,0.844501
+169,Organization,nsa,0.978348,0.988112
+170,Location,abuja,0.963296,0.714347
+170,Organization,government,0.414437,0.870592
+173,Location,kenya,0.978348,0.951391
+174,Organization,national council on the administration of justice,0.958279,0.68539
+174,Organization,national collaboration for oversight and accountability ncoa,0.367644,0.548801
+174,Organization,ncaa,0.358402,0.894539
+176,Location,"national, county",0.95577,0.444403
+176,Location,nimes,0.332954,0.881074
+176,Organization,ministry of devolution and planning,0.283842,0.813695
+176,Organization,med,0.093186,0.970395
+177,Organization,government,0.9999,0.873656
+179,Location,east africa,0.95577,0.923132
+179,Location,africa,0.643972,0.998623
+179,Organization,government,0.632541,0.742683
+179,Location,kenya,0.006996,0.99955
+180,Organization,government,0.978348,0.796866
+181,Organization,national treasury,0.95577,0.882726
+181,Quantity,3 years,0.452044,0.8
+181,Quantity,three months,0.39978,0.8
+181,Organization,national treasury on resources,0.288845,0.39469
+183,Organization,ministry of devolution and planning,0.963296,0.702705
+183,Organization,national treasury,0.224562,0.737935
+184,Location,kenya,0.978348,0.999997
+184,Organization,government,0.115378,0.738969
+186,Location,kenya,0.978348,0.99324
+188,Organization,bu,0.958279,0.961604
+188,Organization,national industrial training authority nita,0.873241,0.589244
+188,Organization,national industry training authority,0.295304,0.834282
+189,Location,kenya,0.9999,0.998182
+190,Organization,government,0.978348,0.749602
+191,Location,nairobi,0.978348,0.816414
+193,Company,ing affordableservices incl durance schemes development,0.978348,0.342759
+194,Organization,youth enterprise development fund,0.978348,0.512457
+196,Organization,export promotion council,0.978348,0.574832
+197,Location,kinshasa,0.953509,0.999994
+197,Location,lubumbashi,0.952545,0.987149
+197,Location,juba,0.934104,0.999856
+197,Location,dubai,0.656904,0.999997
+197,Location,drc,0.562169,0.965858
+197,Location,sudan,0.450612,0.98918
+197,Location,kenya,0.224272,0.989022
+198,Company,mini steel mill,0.978348,0.481112
+200,Location,kenya,0.960286,0.999954
+200,Organization,cbk,0.814888,0.933923
+200,Organization,nae,0.601665,0.784626
+200,Organization,cdc,0.433144,0.998658
+200,Person,moi,0.036849,0.698071
+208,Quantity,six months,0.978348,0.8
+210,PrintMedia,research in and adoption of drought,0.978348,0.016987
+212,Location,kenya,0.978348,0.998413
+214,Location,kenya,0.963296,0.999759
+214,GeographicFeature,lake victoria,0.483873,0.470068
+219,HealthCondition,malaria,0.958279,0.998112
+219,HealthCondition,hiv,0.709634,0.938692
+219,HealthCondition,aids,0.472327,0.999011
+220,Quantity,5 year,0.978348,0.8
+221,Quantity,milk,0.978348,0.8
+222,Quantity,75 0 mm,0.963296,0.8
+222,Quantity,100 0 mm,0.938292,0.8
+223,Quantity,20 0 75 0 mm,0.978348,0.8
+224,Location,kenya,0.978348,0.999799
+228,Quantity,"53 1,80 0 tonnes",0.958279,0.8
+228,Quantity,1.1 million tonnes,0.832212,0.8
+228,Quantity,1.8 million tonnes,0.780305,0.8
+230,Quantity,"40 0,00 0 tonnes",0.954265,0.8
+230,Quantity,"60 0,00 0 tonnes",0.836918,0.8
+230,Location,nyanza,0.589208,0.998278
+230,Location,kenya,0.494338,0.999525
+230,GeographicFeature,rift valley,0.325513,0.424188
+233,Quantity,"32 0,00 0 tonnes",0.978348,0.8
+234,Quantity,"8 4,00 0 tonnes",0.963296,0.8
+234,Company,chevron,0.300246,0.746292
+239,Organization,government,0.978348,0.691743
+240,HealthCondition,chronic bovine,0.951589,0.813238
+240,HealthCondition,lumpy skin disease,0.886296,0.549373
+240,HealthCondition,brucellosis,0.520283,0.560136
+240,Company,ppr,0.447898,0.785805
+240,HealthCondition,fever,0.439164,0.999288
+240,HealthCondition,rabies,0.326598,0.529764
+240,HealthCondition,avian,0.085599,0.976735
+240,HealthCondition,flu,0.061447,0.738628
+240,HealthCondition,tb,0.047203,0.926218
+245,Quantity,5 litres,0.958279,0.8
+245,Quantity,12 0 kg,0.871903,0.8
+245,Quantity,milk,0.407228,0.8
+252,HealthCondition,brucellosis,0.954265,0.954847
+252,HealthCondition,tuberculosis,0.843072,0.999263
+252,Quantity,milk,0.683761,0.8
+252,Location,kenya,0.605798,0.999619
+252,HealthCondition,influenza,0.369641,0.999436
+255,Quantity,milk,0.978348,0.8
+257,Quantity,750 0 tonnes,0.958279,0.8
+257,Location,kenya,0.619645,0.997878
+257,GeographicFeature,south west indian ocean,0.561842,0.757537
+259,Person,tana rivers,0.978348,0.430184
+260,GeographicFeature,lake baring,0.978348,0.363903
+267,Quantity,one month,0.978348,0.8
+269,Quantity,fourteen days,0.978348,0.8
+273,PrintMedia,the gazette,0.978348,0.444422
+276,Quantity,three months,0.978348,0.8
+278,Quantity,one year,0.978348,0.8
+279,Quantity,fourteen days,0.978348,0.8
+282,Quantity,six months,0.978348,0.8
+288,Quantity,three years,0.978348,0.8
+295,Quantity,sixty days,0.978348,0.8
+307,Organization,national assembly,0.963296,0.962298
+307,Organization,senate,0.663556,0.924759
+310,Quantity,sixty days,0.978348,0.8
+313,Quantity,thirty days,0.978348,0.8
+317,Quantity,three years,0.978348,0.8
+318,Quantity,three years,0.978348,0.8
+319,Quantity,three years,0.978348,0.8
+320,Quantity,two years,0.978348,0.8
+321,Quantity,six months,0.963296,0.8
+321,Quantity,one year,0.160821,0.8
+322,Quantity,three years,0.978348,0.8
+327,Quantity,three months,0.978348,0.8
+328,Quantity,6 0 days,0.978348,0.8
+333,Location,kenya,0.978348,0.999658
+333,Quantity,fifty years,0.036823,0.8
+334,GeographicFeature,the north coast,0.954265,0.166747
+334,GeographicFeature,lamu,0.680201,0.363189
+334,Location,mombasa,0.331112,0.98029
+334,Quantity,ten years,0.288543,0.96
+334,GeographicFeature,the south coast,0.280307,0.213964
+335,Location,kenya,0.978348,0.999343
+336,Location,kenya,0.978348,0.922895
+337,Location,nairobi,0.963296,0.908728
+337,Organization,kmd,0.012166,0.753329
+338,GeographicFeature,western indian ocean,0.958279,0.567196
+338,Location,east africa,0.703476,0.956356
+338,GeographicFeature,indian ocean,0.549973,0.804892
+341,Person,lamu,0.958279,0.114549
+341,Person,carissa,0.832607,0.704523
+341,Organization,kmd,0.016835,0.909519
+342,Location,kenya,0.978348,0.996542
+343,Person,mathenge,0.953262,0.8451
+343,Location,baringo,0.894732,0.636355
+343,Facility,tana river,0.884315,0.172228
+343,Person,kenyas,0.361122,0.505675
+343,Location,kenya,0.23337,1.0
+343,Quantity,2 0 years,0.227351,0.8
+344,Location,south africa,0.963296,0.895431
+344,Location,kenya,0.06775,0.999574
+345,Person,amelia volkensii,0.963296,0.942293
+345,Location,taiga hills,0.403987,0.382142
+346,Location,kenya,0.978348,0.999998
+346,HealthCondition,malaria,0.559391,0.977878
+347,Organization,kenya marine and fisheries research institute,0.954265,0.811802
+347,GeographicFeature,kenyan coast,0.37355,0.803986
+347,GeographicFeature,gaze bay,0.297496,0.493782
+347,GeographicFeature,tana river,0.145348,0.769306
+347,GeographicFeature,corridor creek,0.035351,0.775438
+348,IPAddress,2.2.1.2,0.963296,0.924
+348,Location,kenya,0.441794,0.99751
+349,Location,kenya,0.978348,0.990327
+350,GeographicFeature,oceanic islands,0.978348,0.61374
+351,Location,lamu,0.978348,0.704745
+353,GeographicFeature,eastern african coast,0.95577,0.310619
+353,GeographicFeature,the indian ocean,0.725592,0.462134
+353,Person,klein,0.09015,0.846286
+353,Person,al,0.035641,0.925984
+354,GeographicFeature,the kenyan coast,0.958279,0.507764
+354,GeographicFeature,machete creek,0.929612,0.488745
+354,Location,mombasa,0.522157,0.997923
+355,Organization,national environmental management authority,0.954265,0.936482
+355,Organization,nema state of environment,0.915275,0.43771
+355,GeographicFeature,lake victoria basin,0.828134,0.866727
+355,Person,tana basin,0.797623,0.421858
+355,Quantity,5 0 years,0.705549,0.8
+356,Quantity,5 0 years,0.963296,0.8
+356,GeographicFeature,rift valley,0.040281,0.657888
+357,Location,kenya,0.978348,0.999552
+359,Location,kenya,0.978348,0.928979
+361,Quantity,one metre,0.978348,0.8
+362,Quantity,1 4 elephants,0.952545,0.8
+362,GeographicFeature,mara river,0.511376,0.83774
+362,GeographicFeature,the mara river,0.298463,0.576617
+362,Facility,serengeti national park,0.112268,0.78635
+362,Organization,mainsail mara reserve,0.057883,0.70508
+362,Location,tanzania,0.057181,0.999774
+362,Location,kenya,0.003083,0.999514
+363,Location,kenya,0.958279,0.999783
+363,Location,south coast,0.4232,0.448306
+363,Location,manga,0.406748,0.520254
+364,Quantity,1 0 years,0.954265,0.8
+364,Person,elsecan do.have,0.849345,0.842512
+364,Location,malindi,0.460235,0.870828
+364,Location,zanzibar,0.404236,0.977575
+364,Location,east africa,0.164612,0.955473
+365,Organization,ens,0.9999,0.920266
+366,Quantity,1 7 cm,0.963296,0.8
+366,Quantity,5 9 cm,0.91704,0.8
+368,Facility,humankind dam,0.978348,0.207713
+369,IPAddress,2.2.3.4,0.963296,0.924
+369,GeographicFeature,kenya highlands,0.18478,0.47084
+370,Location,kenya,0.958279,0.990767
+370,HealthCondition,malaria,0.121825,0.998587
+370,HealthCondition,rvf,0.013886,0.719302
+371,PrintMedia,el  niff,0.954265,0.065819
+371,HealthCondition,bilharzia,0.875056,0.999089
+371,HealthCondition,cholera,0.736316,0.99999
+371,HealthCondition,amoeba,0.580117,0.758524
+371,HealthCondition,typhoid,0.562975,0.952424
+372,HealthCondition,bilharzia,0.954265,0.983892
+372,Location,kenya,0.882226,0.962848
+372,HealthCondition,typhoid,0.727228,0.907606
+372,HealthCondition,amoeba,0.718759,0.725081
+372,HealthCondition,cholera,0.622727,0.997022
+374,HealthCondition,malnutrition,0.960286,0.97492
+374,Organization,world health organization,0.470871,0.827412
+374,HealthCondition,infectious diseases,0.245462,0.39208
+374,HealthCondition,diarrhoea,0.208144,0.95054
+374,HealthCondition,malaria,0.194091,0.991368
+375,Location,kenya,0.978348,0.997603
+376,Location,kenya,0.963296,0.888605
+376,HealthCondition,malaria,0.285209,0.969034
+377,Organization,ngecu,0.958279,0.337187
+377,NaturalEvent,nino triggered landslides,0.698319,0.047707
+377,Location,kenya,0.133091,0.998401
+378,Organization,kenya meteorological department,0.958279,0.571907
+378,Location,kenya,0.141291,0.999963
+378,Quantity,fifty years,0.03254,0.8
+379,Location,kenya,0.978348,0.999454
+382,Organization,cabinet,0.978348,0.877907
+387,Organization,cabinet,0.978348,0.779554
+388,Organization,cabinet,0.978348,0.786037
+393,PrintMedia,gazette,0.978348,0.496601
+393,Quantity,three years,0.812437,0.8
+395,Quantity,twenty four months,0.978348,0.8
+398,Quantity,six months,0.978348,0.8
+404,Organization,cabinet,0.978348,0.50555
+406,Quantity,twenty four months,0.958279,0.8
+406,Quantity,one year,0.282828,0.8
+406,Quantity,four years,0.242959,0.8
+407,Quantity,twenty four months,0.958279,0.8
+407,Quantity,one year,0.282225,0.8
+407,Quantity,four years,0.24216,0.8
+409,Quantity,twelve months,0.958279,0.8
+409,Quantity,one year,0.519791,0.8
+409,Quantity,four years,0.464138,0.8
+410,Quantity,eighteen months,0.958279,0.8
+410,Quantity,one year,0.445615,0.8
+410,Quantity,four years,0.38581,0.8
+418,Organization,ii council,0.978348,0.353023
+421,Quantity,"40 4,80 0 hectares",0.958279,0.8
+421,Location,turkana,0.131773,0.838069
+421,Location,tana delta,0.058949,0.465425
+422,Location,kenya,0.978348,0.999683
+423,Location,kenya,0.978348,0.997385
+424,Quantity,1 9 years,0.963296,0.8
+424,Quantity,4 9 years,0.81966,0.8
+426,HealthCondition,malaria,0.978348,0.999896
+426,Organization,government,0.253072,0.672819
+428,Location,kenya,0.95577,0.999673
+428,Location,kenyas,0.812195,0.710723
+428,Location,africa,0.772411,0.998966
+428,Quantity,4 0 years,0.694556,0.8
+429,Location,kenya,0.978348,0.999215
+430,Quantity,million acres,0.958279,0.8
+430,Location,turkana,0.315057,0.821247
+430,Location,tana delta,0.124623,0.445696
+433,Organization,department  ministry,0.978348,0.354659
+436,Location,india,0.978348,0.984967
+437,Organization,national disaster relief fund,0.963296,0.796498
+437,Location,india,0.731414,0.998518
+439,Location,india,0.978348,0.97828
+440,Location,india,0.978348,0.999262
+441,Location,india,0.978348,0.996134
+444,Quantity,4 0 percent,0.963296,0.8
+444,Organization,green climate fund,0.061519,0.445291
+449,Organization,segf,0.968313,0.999984
+449,Company,segf,0.782438,0.922135
+449,Organization,establishment of state employment guarantee,0.5334,0.384649
+449,Organization,pias,0.318122,0.675567
+449,Organization,ministry of rural development,0.14349,0.580883
+449,Organization,central government,0.109881,0.855092
+450,Company,segf,0.963296,0.83744
+450,Organization,central government,0.046834,0.757919
+452,Organization,dpc  fund,0.978348,0.365348
+453,Organization,central  state finance commission,0.963296,0.407258
+453,Organization,ministry of water resources national,0.53938,0.244055
+454,Organization,dpc,0.9999,0.956755
+456,Quantity,2 4 hours,0.978348,0.8
+457,Company,cbs,0.963296,0.948279
+457,Organization,postal department,0.776277,0.915194
+458,Company,jfmc edc,0.963296,0.606725
+458,Organization,vdf,0.274764,0.78077
+463,Organization,legislature,0.978348,0.444813
+464,Organization,national biodiversity fund,0.95577,0.811104
+464,Organization,national biodiversity authority,0.692466,0.974345
+464,Organization,central government,0.667117,0.863209
+464,Organization,parliament,0.020391,0.759526
+465,Organization,central statistical organization,0.978348,0.677361
+468,Organization,national authority,0.963296,0.853801
+468,Organization,central government,0.567076,0.953297
+469,Organization,state authority,0.963296,0.89829
+469,Organization,central government,0.392789,0.705791
+470,Organization,central government,0.963296,0.650312
+470,Organization,parliament,0.618156,0.692625
+471,Organization,fpo,0.978348,0.962954
+472,Location,road side canal,0.978348,0.205836
+474,Organization,financial institutions phi,0.978348,0.254527
+478,Organization,ministry of finance,0.963296,0.729107
+478,Location,india,0.097481,0.999289
+481,Company,shg,0.978348,0.663802
+482,Organization,forest department,0.978348,0.929088
+483,Organization,rbi,0.978348,0.512403
+486,Hashtag,#,0.978348,0.8
+487,Location,madhya pradesh,0.978348,0.221105
+489,Organization,green madhya pradesh,0.978348,0.712144
+492,Location,india,0.978348,0.999999
+492,Organization,reserve bank,0.917347,0.518291
+492,Quantity,ninety days,0.396077,0.8
+494,Organization,reserve bank of india,0.958279,0.301606
+494,Company,state bank of india,0.908944,0.398721
+494,Organization,central government,0.048769,0.657878
+498,Organization,provident fund,0.978348,0.248869
+501,Organization,forest budget allocated for wildlife conservation,0.95577,0.349329
+501,Organization,ministry of finance and the planning commission,0.549307,0.731493
+501,Organization,central government,0.146657,0.841103
+501,Organization,planning commission,0.076933,0.516803
+502,Organization,national development council,0.958279,0.975672
+502,Organization,committee of secretaries,0.933471,0.860367
+502,Location,pas,0.081322,0.808819
+503,Organization,moef,0.963296,0.903713
+503,Organization,nodal ministry for all environment and forest,0.851016,0.407591
+505,Organization,nra,0.9999,0.999963
+508,Organization,un,0.978348,0.999263
+510,Organization,nbap,0.963296,0.660973
+510,Company,nbap,0.035998,0.838126
+513,GeographicFeature,himalayan,0.963296,0.994718
+513,GeographicFeature,himalayas,0.254366,0.546146
+516,Quantity,2 5 %,0.978348,0.8
+519,Person,shannon wiener,0.978348,0.9774
+527,Quantity,1 0 cm,0.963296,0.96
+527,Quantity,1 2 years,0.164076,0.8
+527,Quantity,1 year,0.064861,0.8
+527,Quantity,2 years,0.05483,0.8
+536,Quantity,10 cm,0.978348,0.8
+542,Quantity,2.0 years,0.963296,0.8
+542,Quantity,3 5 cm,0.339116,0.8
+549,Organization,committee for ensuring co,0.978348,0.787667
+560,NaturalEvent,earthquakes,0.978348,0.964029
+569,Quantity,1 0 days,0.978348,0.8
+572,Organization,hec,0.978348,0.615249
+592,Person,rajsva sanhita,0.978348,0.39567
+600,Person,patel,0.978348,0.757735
+611,Quantity,"five thousand""",0.978348,0.8
+617,Quantity,five acres,0.978348,0.8
+628,Organization,ministerial coordination committee,0.958279,0.535767
+628,Organization,asds,0.893874,0.691308
+628,Organization,icc,0.786463,0.997123
+629,Organization,government,0.978348,0.685561
+634,Person,kenyas,0.963296,0.399072
+634,Organization,government,0.491032,0.948379
+635,Organization,rural electrification authority,0.978348,0.630186
+637,Organization,ascu,0.963296,0.934544
+637,Organization,asds vision,0.043324,0.350235
+638,Organization,ascu,0.963296,0.787746
+638,Organization,asds,0.350776,0.468954
+641,Quantity,two decades,0.958279,0.8
+641,Location,kenya,0.817146,0.999809
+641,Quantity,5 years,0.123724,0.8
+643,Company,kenyas,0.978348,0.821108
+647,Location,kenya,0.978348,0.999656
+653,Organization,inter governmental authority on development igad,0.954265,0.541968
+653,Location,kenya,0.808396,1.0
+653,Organization,east african community,0.738807,0.693755
+653,Organization,european union,0.638371,0.999975
+653,Location,africa,0.334891,0.780841
+654,Organization,export processing zone authority,0.978348,0.324
+655,Organization,farmer federations,0.963296,0.434831
+655,Organization,kenya private sector alliance,0.606204,0.415829
+657,Organization,government,0.978348,0.771207
+659,Organization,kenya forestry research institute,0.978348,0.743104
+661,Organization,cabinet,0.978348,0.968678
+661,Organization,national treasury,0.861537,0.750101
+663,Organization,un,0.978348,1.0
+663,Organization,kenya national cleaner production centre,0.357862,0.317351
+663,Location,kenya,0.199188,0.999817
+664,Organization,fdic,0.9999,0.994937
+666,Company,china group,0.963296,0.343067
+666,Company,mctf,0.224092,0.994581
+667,Location,kenya,0.963296,0.999812
+667,TwitterHandle,@,0.091206,0.8
+668,Company,memr,0.95577,0.950102
+668,Organization,national climate change coordinating office,0.854823,0.365542
+668,Organization,national climate change activities coordinating committee,0.647866,0.86134
+668,Organization,doe,0.50654,0.987076
+670,Organization,ministry of environment and mineral resources,0.978348,0.774536
+672,Location,kenya,0.978348,0.998658
+673,Location,copenhagen,0.963296,0.993103
+673,Location,us,0.56564,0.862584
+675,Location,kenya,0.9999,0.999999
+676,Location,kenya,0.978348,0.991083
+677,Organization,nccrs,0.978348,0.779405
+678,Quantity,five years,0.978348,0.8
+679,Location,kenya,0.993399,1.0
+679,Location,africa,0.171019,0.999565
+681,Location,kenya,0.978348,0.99725
+682,Location,kenya,0.970822,1.0
+682,Organization,kenya meteorological department,0.454688,0.779187
+682,Organization,un,0.435257,0.998973
+682,Organization,gad climate prediction and applications centre,0.421217,0.281333
+683,Company,forest carbon partnership,0.963296,0.400899
+683,Organization,un,0.722592,0.993867
+684,Organization,establishment of gender research and documentation centre,0.952007,0.110695
+684,Organization,sgbv,0.81833,0.939401
+684,Organization,national gender and equality commission,0.699284,0.727882
+684,Quantity,3 0 percent,0.600447,0.8
+684,Location,kenya,0.414516,0.999936
+684,Organization,women enterprise fund,0.367538,0.791576
+684,Company,gm,0.328836,0.630879
+684,Organization,national development fund,0.200344,0.84294
+685,Location,kenya,0.958279,0.999869
+685,Facility,lamu port,0.867456,0.159913
+685,Location,sudan,0.4325,0.988335
+685,Location,ethiopia,0.428146,0.975431
+685,Organization,opp,0.207743,0.840148
+685,Organization,world bank,0.191085,0.308347
+686,Location,nairobi,0.978348,0.356599
+688,Location,african region,0.978348,0.309322
+689,Location,kenya,0.953262,0.99853
+689,Location,mombasa,0.745524,0.99931
+689,Location,malaba,0.641737,0.840759
+689,Facility,homo kenyatta international airport,0.581197,0.502094
+689,Organization,government,0.48698,0.855657
+689,Location,ethiopia,0.21813,0.593028
+691,Company,kenyas global,0.958279,0.443944
+691,Organization,national treasury,0.830959,0.734358
+691,Organization,government,0.240088,0.683006
+692,Location,kenya,0.963296,0.959338
+692,Company,ark,0.921822,0.567731
+695,Organization,jubilee coalition,0.95577,0.730058
+695,Quantity,five year,0.762184,0.8
+695,Location,kenya,0.455097,0.999324
+695,Organization,government,0.063452,0.935529
+696,Organization,jubilee government,0.95577,0.779801
+696,Location,kenyas,0.899388,0.903366
+696,Organization,government,0.282452,0.968109
+696,Location,kenya,0.142756,0.999393
+697,Organization,government,0.978348,0.761483
+700,Company,kenyas,0.963296,0.936923
+700,Company,ck,0.250578,0.549278
+702,Company,ark,0.978348,0.446553
+703,Organization,kenya foreign service institute,0.954265,0.574144
+703,Organization,foreign service academy,0.763454,0.506613
+703,Organization,semi autonomous government,0.705283,0.507428
+703,Organization,foreign service institute,0.684103,0.728482
+703,Organization,foreign service,0.15473,0.259149
+705,Quantity,five year,0.958279,0.8
+705,Organization,government,0.501952,0.788557
+705,Location,kenya,0.254745,0.999511
+706,Organization,nssf,0.963296,0.999947
+706,Organization,national social security fund,0.855211,0.546131
+706,Organization,nsf,0.794729,0.998111
+706,Organization,government,0.774867,0.965816
+707,Organization,national policy on youth polytechnics,0.958279,0.449978
+707,Organization,national productivity council,0.664541,0.881436
+707,Organization,national social security fund,0.294383,0.697318
+708,Organization,fisheries and food authority,0.95577,0.672961
+708,Organization,affa,0.933392,0.829193
+708,Organization,kenya agricultural research,0.899129,0.676786
+708,Company,karo,0.568474,0.581396
+710,Organization,government,0.978348,0.940981
+711,Organization,ministry of devolution and planning,0.963296,0.729015
+711,Organization,national treasury,0.535528,0.865921
+714,Company,kenya industrial training institute,0.963296,0.310947
+714,Organization,establishment of kenya accreditation services,0.455485,0.49695
+717,Location,kenya,0.978348,0.999957
+717,Organization,government,0.203954,0.872664
+718,Location,kenya,0.978348,0.999964
+718,Location,east africa,0.282833,0.97942
+720,Location,kenya,0.9999,0.999997
+723,Location,kenya,0.963296,0.999667
+723,Organization,government,0.123882,0.844501
+724,Location,abuja,0.963296,0.714347
+724,Organization,government,0.414437,0.870592
+726,Location,kenya,0.978348,0.951391
+727,Organization,national council on the administration of justice,0.958279,0.68539
+727,Organization,national collaboration for oversight and accountability ncoa,0.367644,0.548801
+727,Organization,ncaa,0.358402,0.894539
+728,Location,"national, county",0.95577,0.444403
+728,Location,nimes,0.332954,0.881074
+728,Organization,ministry of devolution and planning,0.283842,0.813695
+728,Organization,med,0.093186,0.970395
+730,Location,east africa,0.95577,0.923132
+730,Location,africa,0.643972,0.998623
+730,Organization,government,0.632541,0.742683
+730,Location,kenya,0.006996,0.99955
+731,Organization,government,0.978348,0.796866
+732,Organization,ministry of devolution and planning,0.963296,0.702705
+732,Organization,national treasury,0.224562,0.737935
+733,Location,kenya,0.978348,0.999997
+733,Organization,government,0.115378,0.738969
+735,Location,kenya,0.978348,0.99324
+737,Organization,bu,0.958279,0.961604
+737,Organization,national industrial training authority nita,0.873241,0.589244
+737,Organization,national industry training authority,0.295304,0.834282
+738,Location,kenya,0.9999,0.998182
+740,Company,ing affordableservices incl durance schemes development,0.978348,0.342759
+742,Organization,export promotion council,0.978348,0.574832
+743,Company,mini steel mill,0.978348,0.481112
+746,Organization,national assembly,0.978348,0.946003
+747,Organization,national local government finance committee,0.978348,0.462479
+750,Organization,national assembly,0.978348,0.965935
+751,Organization,national assembly,0.978348,0.982454
+752,Organization,government,0.978348,0.94406
+754,Organization,national assembly,0.978348,0.853698
+755,Organization,national assembly,0.9999,0.999558
+756,Organization,reserve bank of malawi,0.978348,0.255886
+764,Location,malawi,0.978348,0.997654
+765,Organization,nflra,0.963296,0.747857
+765,Location,malawi,0.222062,0.99496
+766,Location,malawi,0.978348,0.986589
+769,Organization,department of forestry,0.963296,0.958384
+769,Organization,"ministry of agriculture, irrigation",0.802896,0.828097
+772,Organization,world bank,0.963296,0.533553
+772,Location,malawi,0.953671,0.971358
+778,Location,malawi,0.978348,0.991026
+779,Location,rwanda,0.958279,0.998959
+779,Location,costa rica,0.915703,0.968708
+779,Location,guatemala,0.885004,0.997552
+780,Location,malawi,0.978348,1.0
+780,Organization,gef,0.560582,0.803534
+780,Quantity,$90 0 million,0.436143,0.8
+781,Quantity,1 3 percent,0.963296,0.8
+781,Location,malawi,0.494049,0.994345
+783,Organization,department of forestry,0.978348,0.974456
+784,Organization,department of forestry,0.978348,0.991082
+786,Organization,ministry of agriculture leads multi agency,0.978348,0.700734
+788,Location,malawi,0.9999,1.0
+790,Company,forest management,0.963296,0.60152
+790,Organization,government,0.578306,0.831859
+791,Location,malawi,0.978348,0.999702
+792,Organization,ministry responsible for forestry,0.963296,0.608643
+792,Organization,forestry department,0.839962,0.98947
+793,Organization,ministry responsible for foreign affairs,0.978348,0.497957
+795,Organization,ministry responsible for agriculture and food security,0.9999,0.757137
+796,Organization,ministry responsible for finance,0.978348,0.383644
+803,Organization,eu,0.958279,0.99873
+803,Location,malawi,0.543347,0.94698
+803,Quantity,$ 2.4 6 million,0.270095,0.8
+804,Organization,"ministry of education, science and technology",0.963296,0.432901
+804,Organization,malawi government,0.524197,0.50383
+805,Organization,ministry of education,0.963296,0.78718
+805,Organization,malawi government,0.822535,0.498498
+806,Organization,"ministry of education, science and technology",0.958279,0.770566
+806,Organization,education infrastructure management unit,0.71112,0.448198
+806,Location,malawi,0.209613,0.998461
+807,Location,tanzania,0.978348,0.999919
+808,Location,malawi,0.978348,0.880694
+809,Location,malawi,0.963296,0.954322
+809,Organization,government,0.689877,0.797477
+810,Location,malawi,0.9999,0.993107
+811,Location,china,0.978348,0.712393
+812,Organization,dars,0.978348,0.803289
+819,Location,malawis,0.978348,0.995139
+834,Organization,ministry of transport,0.963296,0.859089
+834,HealthCondition,aids,0.334404,0.341135
+842,Person,monroe,0.978348,0.533272
+846,Organization,opp,0.978348,0.62967
+851,Organization,government,0.978348,0.791358
+855,Quantity,9 0 percent,0.978348,0.8
+856,Location,malawi,0.993399,1.0
+856,Quantity,two decades,0.424479,0.8
+857,Organization,department responsible for procurement of public goods and services,0.978348,0.460656
+858,Organization,pf,0.963296,0.823881
+858,Person,mofepd,0.603736,0.305882
+860,Quantity,1 5 percent,0.958279,0.8
+860,Quantity,seven years,0.725897,0.8
+860,Organization,government,0.091702,0.691709
+863,Organization,government,0.978348,0.799953
+864,Location,malawi,0.963296,0.999218
+864,Organization,government,0.331169,0.628509
+871,Company,tele communication service,0.963296,0.759874
+871,Person,gates,0.61252,0.805552
+872,Organization,christian health association,0.963296,0.542241
+872,Location,malawi,0.514659,0.97369
+877,Person,mgds iii,0.978348,0.200224
+880,Organization,np,0.978348,0.968506
+882,Person,mgds iii,0.953262,0.32657
+882,Organization,sdgs,0.587268,0.692445
+882,Organization,aba,0.511661,0.948336
+882,Location,malawi,0.201846,0.999999
+882,Organization,government,0.145133,0.676677
+882,Organization,dc,0.103662,0.660919
+888,Company,blantyre water,0.963296,0.419644
+888,Location,india,0.017337,0.916165
+892,IPAddress,4.1.1.1,0.978348,0.994224
+892,IPAddress,4.1.1.9,0.811845,0.924
+893,Organization,council for the environment nce,0.958279,0.530995
+893,Organization,technical committee on the environment etc,0.888957,0.390471
+893,Organization,environmental affairs institution,0.686679,0.752925
+894,Person,andstrengthen,0.950753,0.788104
+894,IPAddress,4.2.1.1,0.827811,0.924
+894,IPAddress,4.2.1.2,0.761197,0.924
+894,IPAddress,4.2.1.3,0.700587,0.924
+894,IPAddress,4.2.1.4,0.609075,0.924
+894,IPAddress,4.2.1.5,0.541763,0.924
+894,Location,malawi,0.535012,0.999938
+894,Company,ems,0.487315,0.388441
+894,IPAddress,4.2.1.6,0.414419,0.924
+894,IPAddress,4.2.1.7,0.342645,0.924
+894,IPAddress,4.2.1.8,0.213738,0.924
+894,IPAddress,4.2.1.9,0.106422,0.924
+910,Location,malawis,0.963296,0.319543
+910,Location,malawi,0.836265,0.993778
+913,Location,malawi,0.978348,0.999332
+915,Organization,department of forestry,0.963296,0.982527
+915,Organization,treasury,0.884756,0.971861
+917,Organization,nfp,0.963296,0.992029
+917,Organization,forestry department,0.683212,0.89807
+918,Location,malawi,0.978348,0.999151
+919,Organization,government,0.978348,0.71825
+920,Organization,fmdf,0.963296,0.888316
+920,Location,malawi,0.763594,0.998002
+921,Location,malawi,0.978348,0.99757
+928,Organization,nfp,0.978348,0.98585
+929,Organization,nfp,0.978348,0.943531
+931,Organization,forest department,0.958279,0.951755
+931,Organization,central government,0.760695,0.849816
+931,Organization,nfp,0.709129,0.997766
+932,Organization,forestry department,0.978348,0.907766
+934,Company,malawis international,0.963296,0.407683
+934,Location,malawi,0.88845,0.971572
+936,Organization,ministry of agriculture and irrigation,0.954265,0.835519
+936,Organization,ministry of water development,0.860331,0.723849
+936,Organization,ministry of natural resources and environmental affairs,0.732317,0.882178
+936,HealthCondition,confusion,0.500674,0.893345
+936,Location,malawi,0.257105,0.98435
+937,Organization,government,0.978348,0.758809
+938,Organization,government,0.9999,0.985085
+943,Organization,ministry of environment and climate change management,0.963296,0.699077
+943,Location,malawi,0.633415,0.994969
+944,Organization,napa,0.978348,0.501985
+945,Location,malawi,0.978348,1.0
+945,Quantity,5 year,0.687083,0.8
+945,Organization,department of forestry  policy statement,0.546128,0.615807
+945,Organization,ministry of agriculture,0.150601,0.393404
+945,HealthCondition,hiv,0.123741,0.35725
+945,HealthCondition,aids,0.117179,0.989089
+946,Location,malawi,0.9999,1.0
+946,Organization,united nations,0.115945,0.992296
+947,Organization,vsla,0.978348,0.999945
+947,Organization,summary district development planning officers,0.721173,0.131725
+947,Location,malawi,0.242468,0.998662
+950,Organization,restoration activities especially watershed management,0.978348,0.035286
+951,Location,malawi,0.978348,0.970185
+954,Organization,nrc,0.978348,0.998909
+954,Organization,iucn,0.019934,0.926385
+955,Organization,department of forestry,0.958279,0.794719
+955,Organization,ministry of agriculture and food security,0.847269,0.904052
+955,Location,malawi,0.575981,0.92428
+956,Quantity,1 5 percent,0.95577,0.8
+956,Quantity,1.2 percent,0.812604,0.8
+956,Location,malawi,0.768294,0.999998
+956,Person,manson,0.593397,0.62208
+957,Location,malawi,0.968313,0.999995
+957,Quantity,4.5 million hectares,0.684152,0.8
+957,Location,bonn,0.310116,0.886747
+960,Quantity,4.5 million hectares,0.958279,0.8
+960,Location,malawi,0.581921,0.99904
+960,Quantity,4.5millionhectare,0.043293,0.8
+963,Organization,nbs,0.963296,0.947759
+963,Organization,mca,0.962623,0.692313
+967,Organization,national forest landscape restoration assessment nflra,0.963296,0.296287
+967,Location,malawi,0.774664,0.999973
+968,Location,malawi,0.978348,0.998126
+969,Organization,nflra,0.963296,0.874087
+969,Location,malawi,0.726535,0.997387
+970,Location,usaidmalawi,0.953262,0.477865
+970,Organization,bmz,0.510009,0.917949
+970,Organization,world resources institute,0.459101,0.924161
+970,Organization,international union,0.397304,0.968304
+970,Organization,conservation of nature,0.15648,0.570664
+970,Organization,iucn,0.093465,0.773503
+971,Quantity,5 year,0.978348,0.8
+973,Quantity,1 5 percent,0.95577,0.8
+973,Quantity,1.2 percent,0.812604,0.8
+973,Location,malawi,0.768294,0.999998
+973,Person,manson,0.593397,0.62208
+976,Company,cecf,0.963296,0.823688
+976,Organization,green climate fund,0.048039,0.849663
+978,Organization,department of forestry,0.968313,0.997753
+978,Organization,national forest policy,0.93984,0.821181
+978,Organization,national forest programme,0.542194,0.429961
+979,Organization,vsla,0.978348,0.998528
+979,Location,malawi,0.320245,0.998865
+980,Company,mica,0.963296,0.804052
+980,Location,mica,0.85561,0.932893
+981,Location,malawi,0.959342,0.999947
+981,Quantity,1 5 percent,0.95577,0.8
+981,Quantity,1.2 percent,0.854474,0.8
+981,Person,manson,0.450341,0.708239
+982,Location,malawi,0.963296,0.99854
+982,Quantity,4.5 million hectares,0.958954,0.8
+983,Location,malawi,0.978348,0.973
+984,Location,malawi,0.978348,1.0
+984,Quantity,4.5 million hectares,0.837112,0.8
+984,Quantity,thirteen years,0.552146,0.8
+985,Organization,environmental protection authority,0.963296,0.679411
+985,Location,malawi,0.579749,0.996558
+986,Location,malawi,0.978348,0.997019
+987,Organization,gom,0.963296,0.933625
+987,Location,malawi,0.007034,0.996189
+988,Person,costa erica,0.960286,0.842399
+988,Organization,national restoration fund,0.692893,0.805456
+988,Quantity,3.5 percent,0.473896,0.8
+988,Organization,national forest financing fund,0.329996,0.931443
+988,Quantity,"46 0,00 0 hectares",0.144117,0.8
+989,Location,malawi,0.978348,0.96763
+990,Quantity,$17 5 trillion,0.958279,0.8
+990,Company,miro responsible investing,0.936026,0.188879
+990,Location,malawi,0.135588,0.992204
+992,Location,malawi,0.978348,0.991665
+993,Person,levere,0.958279,0.936156
+993,Company,schweke,0.947211,0.676688
+993,Location,dis,0.787146,0.332613
+994,Location,malawi,0.9999,0.999955
+995,Organization,gef,0.966306,0.997236
+995,Organization,united nations environment program,0.857901,0.687731
+995,Organization,united nations development program,0.812997,0.551585
+995,Organization,united nations,0.577578,0.999959
+995,Organization,world bank,0.467067,0.728961
+996,Organization,gef,0.969317,1.0
+996,Location,malawi,0.620785,1.0
+996,Quantity,$4 2 million,0.395487,0.8
+996,Quantity,$19 7 million,0.354737,0.8
+996,Quantity,$9 4 million,0.306269,0.8
+996,Quantity,$17 0 million,0.294783,0.8
+996,GeographicFeature,shire river basin,0.198159,0.819497
+996,Quantity,$9.8 million,0.111832,0.8
+996,Quantity,$8 million,0.03664,0.8
+996,Quantity,$1.7 million,0.028305,0.8
+997,Quantity,$3 5 million,0.958279,0.8
+997,Quantity,$10 0 billion,0.861018,0.8
+997,Location,malawi,0.363293,0.996094
+999,Location,malawi,0.9999,1.0
+999,Organization,gom,0.343016,0.99567
+1000,Organization,gcf,0.963296,0.643623
+1000,Organization,national restoration fund,0.957396,0.388576
+1001,Quantity,$93 0 million,0.952007,0.8
+1001,Location,malawi,0.803489,0.999999
+1001,Organization,gef,0.547852,0.91173
+1001,Organization,ado,0.508145,0.946177
+1001,Organization,world bank,0.41666,0.601926
+1001,Person,ado,0.274561,0.569666
+1001,Organization,gcf,0.258596,0.758816
+1001,Organization,gom,0.111534,0.994029
+1004,Organization,ministry of natural resources,0.963296,0.963835
+1004,Organization,department of environmental affairs,0.29693,0.909018
+1009,Organization,world bank,0.963296,0.484382
+1009,Location,malawi,0.954761,0.956564
+1010,Location,uganda,0.978348,0.997475
+1011,Organization,mca,0.9999,0.912513
+1012,Organization,nfl,0.978348,0.999872
+1013,Location,malawi,0.95577,0.994373
+1013,Organization,dfid,0.650418,0.999303
+1013,Organization,world bank shire river basin management programme srbmp,0.644057,0.189067
+1013,Location,norway,0.420822,0.994742
+1016,Organization,japanese government,0.954265,0.956284
+1016,Location,malawi,0.857741,0.999926
+1016,Quantity,two year,0.848232,0.8
+1016,Organization,united nations,0.439725,0.993129
+1016,Organization,government,0.333388,0.824487
+1017,Location,malawi,0.978348,0.995181
+1020,Location,malawi,0.9999,1.0
+1022,Location,malawi,0.978348,1.0
+1022,Organization,"cads protocol on science, technology and innovation",0.578921,0.177213
+1022,Organization,au,0.522547,0.999724
+1023,Location,malawi,0.978348,0.999985
+1023,Facility,green house,0.445559,0.294926
+1023,Quantity,5 hectares,0.334827,0.8
+1024,Organization,government,0.978348,0.659885
+1025,Organization,ministry of development planning and cooperation,0.95577,0.703031
+1025,Organization,environmental affairs department,0.764951,0.328932
+1025,Organization,department of meteorological services,0.648795,0.769366
+1025,Location,malawi,0.572305,0.997112
+1028,Location,malawi,0.978348,0.997587
+1029,IPAddress,3.2.2.1,0.963296,0.924
+1029,Person,viii,0.89091,0.805212
+1030,IPAddress,3.2.5.1,0.978348,0.924
+1031,IPAddress,8.2.1.1,0.978348,0.924
