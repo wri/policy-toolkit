@@ -27,7 +27,7 @@ The codes that we developed are located in the following four folders.
    * generating pos tags and n-gram features which were added into the neural nets model: [feature_engineering.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/feature_engineering.py)
    * final neural nets model with 80-20 train-valid split: [neural-networks-1201.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/neural-networks-1201.py)
    * final neural nets model with k-fold cross validation: [neural-networks-1204.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/neural-networks-1204.py)
-   * alternative roberta classification method: [roberta_direct_classification.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/roberta_direct_classification.py); [utils.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/utils.py)
+   * alternative roberta classification method: [roberta_direct_classification.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/roberta_direct_classification.py); [utils.py](https://github.com/yg2619/policy-toolkit/blob/columbia_team_codes/columbia_codes/roberta%20%26%20nerual%20nets/utils.py) (tools to use in classification)
 
 ## Data
 
