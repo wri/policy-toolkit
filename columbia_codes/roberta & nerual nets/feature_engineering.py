@@ -1,3 +1,9 @@
+"""
+This file includes codes for generating n-gram and pos tag features that were later
+added into the neural nets model
+"""
+
+
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_extraction.text import CountVectorizer
